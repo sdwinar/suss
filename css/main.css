@@ -1,0 +1,10 @@
+.my_input {
+    background: no-repeat;
+    border: none;
+    border-bottom: 1px solid yellowgreen;
+    border-radius: 13%;
+    margin: 5px 0px;
+    padding: 5px;
+    font-weight: bold;
+    color: azure;
+}

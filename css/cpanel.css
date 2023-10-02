@@ -1,0 +1,125 @@
+.cpinput {
+    position: relative;
+    width: 100%;
+    height: 7vh;
+    background: border-box;
+    border: 0px;
+    border-bottom: 1px solid red;
+    border-radius: 10%;
+    color: #caff0a;
+    font-size: 10px;
+    font-weight: 500
+}
+
+.activecp a {
+    border: 2px solid rgb(132, 0, 255) !important;
+    color: rgb(202, 255, 10) !important;
+    font-weight: bold !important;
+}
+
+.activecp a i {
+    color: rgb(202, 255, 10) !important;
+}
+
+.homesidebara {
+    position: relative !important;
+    display: inline-block !important;
+    padding: 7px 23px !important;
+    border: 2px solid red !important;
+    text-transform: uppercase !important;
+    color: antiquewhite !important;
+    text-decoration: none !important;
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    width: 100%;
+}
+
+.homesidebaradark::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 6px !important;
+    left: -2px !important;
+    width: calc(100% + 4px) !important;
+    height: calc(100% - 12px) !important;
+    background: #000116 !important;
+    transition: 0.3s ease-in-out !important;
+    transform: scaleY(1) !important;
+    transition-delay: 0.3s !important;
+}
+
+.homesidebaradark:hover::before {
+    transform: scaleY(0) !important;
+}
+
+.homesidebaradark::after {
+    content: '' !important;
+    position: absolute !important;
+    left: 6px !important;
+    top: -2px !important;
+    height: calc(100% + 4px) !important;
+    width: calc(100% - 12px) !important;
+    background: #000116 !important;
+    transition: 0.3s ease-in-out !important;
+    transform: scaleX(1) !important;
+}
+
+.homesidebaradark:hover::after {
+    transform: scaleX(0) !important;
+}
+
+.homesidebaradark span {
+    position: relative !important;
+    z-index: 3 !important;
+}
+
+.homesidebaralight::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 6px !important;
+    left: -2px !important;
+    width: calc(100% + 4px) !important;
+    height: calc(100% - 12px) !important;
+    background: #1e135f !important;
+    transition: 0.3s ease-in-out !important;
+    transform: scaleY(1) !important;
+    transition-delay: 0.3s !important;
+}
+
+.homesidebaralight:hover::before {
+    transform: scaleY(0) !important;
+}
+
+.homesidebaralight::after {
+    content: '' !important;
+    position: absolute !important;
+    left: 6px !important;
+    top: -2px !important;
+    height: calc(100% + 4px) !important;
+    width: calc(100% - 12px) !important;
+    background: #1e135f !important;
+    transition: 0.3s ease-in-out !important;
+    transform: scaleX(1) !important;
+}
+
+.homesidebaralight:hover::after {
+    transform: scaleX(0) !important;
+}
+
+.homesidebaralight span {
+    position: relative !important;
+    z-index: 3 !important;
+}
+
+.cpwaiteimg {
+    margin: 3% 27%;
+    width: 50%;
+    height: 5vh;
+    filter: brightness(0.5) opacity(0.7);
+}
+
+.homesidebardiv {
+    padding: 0%;
+}
+
+
+/* star users show in model cpanel users */

@@ -1,0 +1,33 @@
+.light {
+    background: url(../media/img/main/light.jpg);
+}
+
+.dark {
+    background: url(../media/img/main/dark.jpg);
+}
+
+.font_light {
+    color: #b8ff2d !important;
+    text-shadow: 2px 0 3px #FF0000, 2px 0 5px #0000FF;
+}
+
+.font_dark {
+    color: bisque !important;
+    text-shadow: 2px 0 3px #FF0000, 2px 0 5px #0000FF;
+}
+
+.backlight {
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.backdark {
+    background: rgba(0, 0, 0, 0.6) !important;
+}
+
+.divlight {
+    background-color: #484545 !important;
+}
+
+.divdark {
+    background-color: #000000 !important;
+}
