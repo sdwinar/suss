@@ -33,18 +33,18 @@ My first graduation project is a communication site for university students that
 
 """"""""""""""""""""""""""|
 
--HTML
+- HTML
 
--CSS
+- CSS
 
--Java Script
+- Java Script
 
--Bootstrap
+- Bootstrap
 
--JQury
+- JQury
 
--PHP Pure
-
--MySQL
+- PHP 
+- ajax
+- MySQL
 
 
