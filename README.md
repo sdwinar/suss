@@ -33,16 +33,18 @@ My first graduation project is a communication site for university students that
 
 """"""""""""""""""""""""""|
 
-- HTML ;
+-HTML
 
-- Closed
+-CSS
 
-- JavaScript
+-Java Script
 
-- The boot
+-Bootstrap
 
-- Juri
+-JQury
 
-- Bi-pure
+-PHP Pure
 
-- The cell ;
+-MySQL
+
+
